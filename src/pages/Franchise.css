@@ -1,0 +1,30 @@
+.fr-hero__title { max-width: 12ch; }
+.fr-hero__primary:hover { background: var(--white); border-color: var(--white); color: var(--red); }
+
+.fr-intro { max-width: 880px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) var(--gutter); text-align: center; }
+.fr-intro p { margin: 0; font-size: clamp(18px, 1.9vw, 22px); line-height: 1.45; font-weight: 800; text-wrap: pretty; }
+
+.fr-half { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); }
+.fr-half--red { background: var(--red); color: var(--white); }
+.fr-half__body { padding: clamp(48px, 7vw, 96px) clamp(16px, 5vw, 72px); display: flex; flex-direction: column; justify-content: center; gap: 24px; }
+.fr-half__media { min-height: clamp(320px, 40vw, 560px); background-size: cover; background-position: center; background-repeat: no-repeat; }
+
+.fr-list { display: flex; flex-direction: column; gap: 16px; }
+.fr-list__item { display: flex; gap: 14px; align-items: flex-start; }
+.fr-list__item > div { display: flex; flex-direction: column; gap: 2px; }
+.fr-list__check { width: 30px; height: 30px; border-radius: 999px; background: var(--red); color: var(--white); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.fr-list__check--inv { background: var(--white); color: var(--red); }
+.fr-list__title { font-weight: 700; font-size: 17px; }
+.fr-list__text { font-size: 15px; line-height: 1.55; }
+
+.fr-steps { padding-top: clamp(56px, 8vw, 112px); padding-bottom: clamp(56px, 8vw, 112px); }
+.fr-steps .title-md { margin-bottom: 32px; }
+.fr-steps__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; }
+.fr-step { border: 1px solid var(--line); border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 10px; }
+.fr-step__num { font-weight: 900; font-size: 48px; line-height: 1; color: var(--red); }
+.fr-step__title { font-weight: 800; font-size: 20px; text-transform: uppercase; }
+.fr-step__text { font-size: 15px; line-height: 1.55; }
+
+.fr-form { border-top: 1px solid rgba(17, 17, 17, 0.1); }
+.fr-form__inner { max-width: 760px; margin: 0 auto; padding: clamp(56px, 8vw, 112px) var(--gutter); }
+.fr-form__note { margin: 12px 0 32px; font-size: 15px; }

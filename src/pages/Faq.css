@@ -1,0 +1,14 @@
+.faq { max-width: 860px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) var(--gutter) clamp(56px, 8vw, 112px); }
+.faq__title { font-size: clamp(40px, 6.4vw, 80px); }
+.faq__group { padding-top: clamp(40px, 6vw, 72px); }
+.faq__group-title { margin: 0 0 6px; font-weight: 900; font-size: clamp(26px, 3.4vw, 40px); line-height: 1; text-transform: uppercase; }
+.faq__item { border-bottom: 2px solid var(--line-on-red); }
+.faq__q { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; background: none; border: none; padding: 22px 0; text-align: left; cursor: pointer; color: var(--white); font-weight: 800; font-size: clamp(16px, 1.7vw, 19px); text-transform: uppercase; letter-spacing: 0.01em; }
+.faq__q:hover { color: var(--ink); }
+.faq__q svg { flex-shrink: 0; }
+.faq__a { padding: 0 40px 22px 0; display: flex; flex-direction: column; gap: 10px; }
+.faq__a p { margin: 0; font-size: 16px; line-height: 1.65; }
+.faq__a a { align-self: flex-start; color: var(--white); font-weight: 700; font-size: 15px; text-decoration: underline; }
+.faq__a a:hover { color: var(--ink); }
+.faq__more { margin-top: 56px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.faq__more span { font-weight: 900; font-size: clamp(22px, 2.6vw, 30px); text-transform: uppercase; line-height: 1.1; }

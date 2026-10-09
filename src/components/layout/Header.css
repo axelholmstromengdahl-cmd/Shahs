@@ -1,0 +1,12 @@
+.header { position: sticky; top: 0; z-index: 50; background: var(--white); }
+.header__inner { padding-top: 14px; padding-bottom: 14px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.header__logo { display: block; flex-shrink: 0; line-height: 0; }
+.header__logo img { display: block; height: 44px; width: auto; }
+.header__actions { display: flex; align-items: center; gap: clamp(12px, 4vw, 56px); }
+.header__order { display: none; padding: 12px 22px; font-size: 18px; font-weight: 600; }
+.header__menu { height: 56px; display: flex; align-items: center; gap: 14px; background: none; border: none; cursor: pointer; color: var(--ink); padding: 0; font-weight: 500; font-size: 16px; letter-spacing: 0.02em; }
+.header__menu:hover { color: var(--red); }
+
+@media (min-width: 960px) {
+  .header__order { display: inline-flex; }
+}

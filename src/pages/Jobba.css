@@ -1,0 +1,29 @@
+.jb-hero__lead { max-width: 40ch; line-height: 1.55; }
+.jb-hero__primary:hover { background: var(--white); border-color: var(--white); color: var(--red); }
+
+.jb-collage { padding-top: clamp(56px, 8vw, 104px); padding-bottom: clamp(56px, 8vw, 104px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 20px; }
+.jb-collage__item { margin: 0; display: flex; flex-direction: column; gap: 12px; }
+.jb-collage__img { aspect-ratio: 3 / 4; background: var(--red); color: var(--white); display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 24px; text-transform: uppercase; text-align: center; padding: 20px; }
+.jb-collage__item figcaption { font-size: 14px; line-height: 1.5; }
+
+.jb-jobs { max-width: 1000px; margin: 0 auto; padding: 0 var(--gutter) clamp(56px, 8vw, 104px); }
+.jb-jobs .title-md { margin-bottom: 20px; }
+.jb-jobs__list { border-top: 1px solid var(--line); }
+.jb-job { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; background: none; border: none; border-bottom: 1px solid var(--line); padding: 22px 0; text-align: left; cursor: pointer; color: var(--ink); }
+.jb-job:hover { background: rgba(17, 17, 17, 0.02); }
+.jb-job__text { display: flex; flex-direction: column; gap: 4px; }
+.jb-job__role { font-weight: 800; font-size: clamp(18px, 2vw, 22px); text-transform: uppercase; color: var(--red); }
+.jb-job__meta { font-size: 14px; }
+.jb-job__apply { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: 15px; white-space: nowrap; }
+.jb-job__apply svg { color: var(--red); }
+
+.jb-form { border-top: 1px solid rgba(17, 17, 17, 0.1); }
+.jb-form__inner { max-width: 760px; margin: 0 auto; padding: clamp(56px, 8vw, 104px) var(--gutter); }
+.jb-form__title { margin: 0; font-weight: 900; font-size: clamp(28px, 3.6vw, 44px); line-height: 1; text-transform: uppercase; }
+.jb-form__note { margin: 12px 0 32px; font-size: 15px; }
+
+.jb-tips__title { font-size: clamp(34px, 5vw, 56px); }
+.jb-tips__open { align-self: flex-start; }
+.jb-tips__form { width: 100%; display: flex; flex-direction: column; gap: 12px; }
+.jb-tips__form .btn { align-self: flex-start; }
+.jb-tips__sent { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; color: var(--red); }

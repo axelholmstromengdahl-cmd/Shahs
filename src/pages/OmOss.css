@@ -1,0 +1,5 @@
+.om__title { max-width: 12ch; }
+.om__lead { max-width: 40ch; line-height: 1.55; }
+.om__intro { max-width: 1200px; margin: 0 auto; padding: clamp(56px, 8vw, 112px) var(--gutter) clamp(24px, 3vw, 40px); text-align: center; }
+.om__intro p { margin: 0 auto; font-size: clamp(20px, 2.2vw, 28px); line-height: 1.5; font-weight: 500; max-width: 36ch; text-wrap: pretty; }
+.om__timeline { max-width: 1280px; margin: 0 auto; padding: 0 var(--gutter) clamp(56px, 8vw, 112px); }

@@ -1,0 +1,5 @@
+.image-hero { position: relative; min-height: clamp(440px, 64vh, 640px); display: flex; align-items: flex-end; background-color: var(--ink); background-size: cover; background-repeat: no-repeat; color: var(--white); }
+.image-hero__shade { position: absolute; inset: 0; background: rgba(17, 17, 17, 0.6); }
+.image-hero__shade--gradient { background: linear-gradient(0deg, rgba(17, 17, 17, 0.75) 0%, rgba(17, 17, 17, 0.2) 70%); }
+.image-hero__content { position: relative; padding-top: clamp(56px, 8vw, 104px); padding-bottom: clamp(56px, 8vw, 104px); display: flex; flex-direction: column; gap: 20px; }
+.image-hero__actions { display: flex; flex-wrap: wrap; gap: 12px; }

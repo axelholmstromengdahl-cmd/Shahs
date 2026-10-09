@@ -1,0 +1,33 @@
+.menu-intro { padding-top: clamp(48px, 7vw, 88px); padding-bottom: 32px; display: flex; flex-direction: column; gap: 16px; }
+.menu-intro__title { margin: 0; font-weight: 900; font-size: clamp(44px, 7vw, 96px); line-height: 0.92; text-transform: uppercase; letter-spacing: -0.02em; }
+.menu-intro__lead { max-width: 46ch; }
+.menu-intro .text-link { align-self: flex-start; }
+
+.menu-covers { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 24px 20px; }
+.menu-cover { display: flex; flex-direction: column; gap: 14px; background: none; border: none; padding: 0; text-align: left; cursor: pointer; color: var(--ink); }
+.menu-cover:hover { color: var(--red); }
+.menu-cover__media { width: 100%; aspect-ratio: 4 / 3; overflow: hidden; position: relative; background: var(--white); }
+.menu-cover__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.menu-cover__name { width: 100%; display: flex; align-items: center; justify-content: space-between; font-weight: 900; font-size: 22px; text-transform: uppercase; letter-spacing: -0.005em; }
+.menu-cover__name svg { color: var(--red); }
+
+.menu-cats { padding-bottom: clamp(56px, 8vw, 112px); }
+.menu-cat { padding-top: clamp(56px, 7vw, 96px); }
+.menu-cat__head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+.menu-cat__titles { display: flex; flex-direction: column; gap: 6px; }
+.menu-cat__title { margin: 0; font-weight: 900; font-size: clamp(30px, 4.4vw, 52px); line-height: 1; text-transform: uppercase; letter-spacing: -0.015em; }
+.menu-cat__intro { font-size: 15px; }
+.menu-cat__toggle { display: inline-flex; align-items: center; gap: 6px; background: none; border: none; padding: 0; color: var(--red); font-weight: 700; font-size: 16px; cursor: pointer; }
+.menu-cat__toggle:hover { color: var(--ink); }
+.menu-cat__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 28px 20px; }
+
+.product { display: flex; flex-direction: column; gap: 12px; }
+.product__media { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: var(--white); }
+.product__media img { width: 100%; height: 100%; display: block; }
+.product__placeholder { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 20px; text-align: center; background: var(--red); color: var(--white); font-weight: 900; font-size: clamp(20px, 2vw, 24px); line-height: 1.05; text-transform: uppercase; }
+.product__new { position: absolute; top: 12px; left: 12px; background: var(--red); color: var(--white); border-radius: 999px; padding: 6px 12px; font-weight: 800; font-size: 12px; letter-spacing: 0.12em; }
+.product__name { margin: 0; font-weight: 800; font-size: 18px; line-height: 1.2; text-transform: uppercase; }
+.product__desc { margin: 0; font-size: 14px; line-height: 1.55; }
+
+.menu-allergens { margin-top: clamp(56px, 7vw, 88px); padding-top: 28px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.menu-allergens__title { font-weight: 900; font-size: clamp(22px, 2.6vw, 30px); text-transform: uppercase; line-height: 1.1; }
